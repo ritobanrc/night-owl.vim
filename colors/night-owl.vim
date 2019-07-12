@@ -14,30 +14,30 @@ if exists("syntax_on")
 endif
 let g:colors_name="night-owl"
 
-hi Normal guifg=#d6deeb ctermfg=253 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi LineNr guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+hi Normal guifg=#d6deeb ctermfg=253 guibg=#010b14 ctermbg=233 gui=NONE cterm=NONE
+hi LineNr guifg=#444444 ctermfg=238 guibg=#010b14 ctermbg=233 gui=NONE cterm=NONE
 hi CursorLine guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#aaaaaa ctermfg=248 guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
 hi ColorColumn guibg=#222222 ctermbg=235 gui=NONE cterm=NONE
-hi DiffAdd guifg=#011627 ctermfg=233 guibg=#addb67 ctermbg=149 gui=NONE cterm=NONE
-hi DiffChange guifg=#011627 ctermfg=233 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
-hi DiffDelete guifg=#011627 ctermfg=233 guibg=#ff5874 ctermbg=204 gui=NONE cterm=NONE
-hi DiffText guifg=#011627 ctermfg=233 guibg=#addb67 ctermbg=149 gui=NONE cterm=NONE
+hi DiffAdd guifg=#0110b14 ctermfg=233 guibg=#addb67 ctermbg=149 gui=NONE cterm=NONE
+hi DiffChange guifg=#0110b14 ctermfg=233 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
+hi DiffDelete guifg=#0110b14 ctermfg=233 guibg=#ff5874 ctermbg=204 gui=NONE cterm=NONE
+hi DiffText guifg=#0110b14 ctermfg=233 guibg=#addb67 ctermbg=149 gui=NONE cterm=NONE
 hi diffAdded guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi diffRemoved guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi VertSplit guifg=#777777 ctermfg=243 gui=NONE cterm=NONE
-hi Folded guifg=#777777 ctermfg=243 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi FoldColumn guifg=#333333 ctermfg=236 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi SignColumn guifg=NONE ctermfg=NONE guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+hi Folded guifg=#777777 ctermfg=243 guibg=#0110b14 ctermbg=233 gui=NONE cterm=NONE
+hi FoldColumn guifg=#333333 ctermfg=236 guibg=#0110b14 ctermbg=233 gui=NONE cterm=NONE
+hi SignColumn guifg=NONE ctermfg=NONE guibg=#0110b14 ctermbg=233 gui=NONE cterm=NONE
 hi IncSearch guifg=#eeeeee ctermfg=255 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
 hi NonText guifg=#444444 ctermfg=238 gui=NONE cterm=NONE
 hi PMenu guibg=#2d2c5d ctermbg=236 gui=NONE cterm=NONE
 hi PMenuSel guibg=#c792ea ctermbg=176 gui=NONE cterm=NONE
-hi Search guifg=#011627 ctermfg=233 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
+hi Search guifg=#0110b14 ctermfg=233 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
 hi SpecialKey guifg=#444444 ctermfg=238 gui=NONE cterm=NONE
 hi Title guifg=#82aaff ctermfg=111 gui=bold cterm=bold
 hi Visual guifg=#d6deeb ctermfg=253 guibg=#2d2c5d ctermbg=236 gui=NONE cterm=NONE
-hi EndOfBuffer guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+hi EndOfBuffer guifg=#444444 ctermfg=238 guibg=#0110b14 ctermbg=233 gui=NONE cterm=NONE
 hi Comment guifg=#637777 ctermfg=243 gui=italic cterm=italic
 hi Constant guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi String guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
@@ -119,14 +119,14 @@ hi markdownCode guifg=#aaaaaa ctermfg=248 gui=NONE cterm=NONE
 hi mkdCodeStart guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
 hi mkdCodeEnd guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
 hi mkdLinkDef guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
-hi mkdCodeDelimiter guifg=#637777 ctermfg=243 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+hi mkdCodeDelimiter guifg=#637777 ctermfg=243 guibg=#0110b14 ctermbg=233 gui=NONE cterm=NONE
 hi htmlH1 guifg=#82aaff ctermfg=111 gui=bold cterm=bold
 hi link htmlH2 htmlH1
 hi link htmlH3 htmlH1
 hi htmlH4 guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi link htmlH5 htmlH4
-hi htmlBold guifg=#c792ea ctermfg=176 guibg=#011627 ctermbg=233 gui=bold cterm=bold
-hi shComment guifg=#637777 ctermfg=243 guibg=#011627 ctermbg=233 gui=italic cterm=italic
+hi htmlBold guifg=#c792ea ctermfg=176 guibg=#0110b14 ctermbg=233 gui=bold cterm=bold
+hi shComment guifg=#637777 ctermfg=243 guibg=#0110b14 ctermbg=233 gui=italic cterm=italic
 hi NERDTreeDir guifg=#5f7e97 ctermfg=66 gui=NONE cterm=NONE
 hi NERDTreeOpenable guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi NERDTreeClosable guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
@@ -142,8 +142,8 @@ hi GitGutterDelete guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi GitGutterChangeDelete guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 
 let g:terminal_color_foreground = "#d6deeb"
-let g:terminal_color_background = "#011627"
-let g:terminal_color_0 = "#011627"
+let g:terminal_color_background = "#0110b14"
+let g:terminal_color_0 = "#0110b14"
 let g:terminal_color_8 = "#637777"
 let g:terminal_color_1 = "#ff5874"
 let g:terminal_color_2 = "#addb67"
